@@ -134,9 +134,15 @@ p {
 
 .portfolio p a{
   font-size: 24px;
-  display: inline;
+  display: inline-block;
   border: dotted #04202C;
   padding: 5px;
+}
+
+.portfolio p img{
+  display: inline-block;
+  width: auto;
+  height: 50px;
 }
 
 .quiz-app-screenshot{
