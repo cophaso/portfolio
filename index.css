@@ -1,0 +1,55 @@
+body {
+  display: block;
+  font-family: 'Work Sans', sans-serif;
+  margin: 0px;
+  padding: 0px;
+}
+
+header{
+  background-color: black;
+}
+
+main{
+  margin-top: -20px;
+}
+
+.navbar {
+  background-color: #426e86;
+  margin-bottom: 0;
+}
+
+li {
+  list-style: none;
+  display: inline;
+}
+
+a {
+  color: white;
+  text-decoration: none;
+}
+
+.portfolio-img{
+  position: relative;
+  width: auto;
+  height: 400px;
+  overflow: hidden;
+  border-radius: 50%;
+  float: left;
+}
+
+.about-me{
+  background-color: #f8f1e5;
+}
+
+.about-me p{
+
+}
+
+.about-me, .contact-info, .portfolio-title {
+  text-align: center;
+}
+
+h1, h2, h3 {
+  font-family: 'Space Mono', monospace;
+  color: #2f3131;
+}
