@@ -131,7 +131,9 @@ a:visited{
   padding-top: 20px;
 }
 
-@media (min-width:801px) {  
+
+/****** FOR DESKTOP ******/
+@media (min-width:1025px) {  
   .navbar ul {
     float: right;
     padding-right: 25px;
@@ -147,7 +149,7 @@ a:visited{
   .profile-img {
     height: 400px;
     float: left;
-    margin-left: 100px;
+    margin-left: 5%;
     margin-bottom: 50px;
   }
 
@@ -157,7 +159,7 @@ a:visited{
     width: 50%;
     text-align: left;
     line-height:50px;
-    padding-top: 50px;
+    padding-top: 2.5%;
   }
   
   .projects {
@@ -166,26 +168,20 @@ a:visited{
 
   h3 {
     font-size: 28px;
-    margin-left: 300px;
+    margin-left: 15%;
     margin-bottom: -25px;
     text-align: left;
   }
 
   .project-description {
     font-size: 22px;
-    display: inline-block;
+    float: left;
+    clear: both;
     width: 500px;
     text-align: left;
     line-height:50px;
     padding-top: 50px;
-    padding-left: 200px;
-  }
-  
-  .project-description a{
-    font-size: 24px;
-    display: inline-block;
-    border: dotted #04202C;
-    padding: 5px;
+    padding-left: 2.5%;
   }
 
   .quiz-app-screenshot{
