@@ -13,11 +13,11 @@
     <header>
       <!--Nav-->
       <nav class="navbar" role="navigation">
-        <a class="home-link" href="index.html">Crystal Ophaso</a>
+        <a class="index-link" href="index.html">Crystal Ophaso</a>
         <ul>
-          <li><a href="#portfolio">Portfolio</a></li>
-          <li><a href="#about">About</a></li>
           <li><a href="#contact">Contact</a></li>
+          <li><a href="#projects">Projects</a></li>
+          <li><a href="#about">About</a></li>
         </ul>
       </nav>
     </header>
@@ -25,34 +25,36 @@
       <!--About Me-->
       <section class="about-me">
         <h1><a name="about"></a> Hi I'm Crystal :)</h1>
-        <img src="img/portfolio_profile.jpg" alt="Picture of me facing right and a sunset behind me in the desert.">
-        <p>Aspiring full stack web developer with a knack for bug hunting. 
+        <img class="profile-img" src="img/portfolio_profile.jpg" alt="Picture of me facing right and a sunset behind me in the desert.">
+        <p class="profile-description">Aspiring full stack web developer with a knack for bug hunting. 
           QA Engineer based out of San Diego, CA. 
           When I’m not looking for code to break, I’m an avid foodie, gamer, and Netflix binger. 
         </p>
       </section>
-
+      <!--Contact-->
       <section class="contact-info">
         <h2><a name="contact"></a> The Good Stuff</h2>
-        <ul>
-          <li><a href="https://github.com/cophaso"><img src="img/github_icon.png" alt="An icon of the github logo"></a></li>
-          <li><a href="https://www.linkedin.com/in/crystalophaso"><img src="img/linkedin_icon.png" alt="An icon of the linkedin logo"></a></li>
-          <li><a href="mailto: cophaso@gmail.com"><img src="img/gmail_icon.png" alt="An icon of the Gmail logo"></a></li>
+        <ul class="contact-list">
+          <li><a href="https://github.com/cophaso"><img class="contact-icon" src="img/github_icon.png" alt="An icon of the github logo"></a></li>
+          <li><a href="https://www.linkedin.com/in/crystalophaso"><img class="contact-icon" src="img/linkedin_icon.png" alt="An icon of the linkedin logo"></a></li>
+          <li><a href="mailto: cophaso@gmail.com"><img class="contact-icon" src="img/gmail_icon.png" alt="An icon of the Gmail logo"></a></li>
         </ul>
       </section>
-
-      <section class="portfolio">
-        <h2 class="portfolio-title"><a name="portfolio">Portfolio</a></h2>
+      <!--Projects-->
+      <section class="projects">
+        <h2 class="projects-title"><a name="projects">Projects</a></h2>
         <h3>Cat Fact Quiz App</h3>
-        <p>
+        <p class="project-description">
           Cat Facts Quiz App made with HTML, CSS, and JQuery. A quiz for true feline affocianados. Test your cat knowledge. 
-          <a href="https://github.com/cophaso/cat-facts-quiz-app">Github Repo</a>
-          <a href="https://cophaso.github.io/cat-facts-quiz-app/">Live</a>
-          <img src="img/css_3.png" alt="A CSS 3 icon">
-          <img src="img/html_5.png" alt="An HTML 5 icon">
-          <img src="img/javascript_icon.png" alt="A Javascript icon">
+          <a class="project-link" href="https://github.com/cophaso/cat-facts-quiz-app">Github Repo</a>
+          <a class="project-link" href="https://cophaso.github.io/cat-facts-quiz-app/">Live</a>
         </p>
         <img class="quiz-app-screenshot" src="img/cat-facts-quiz-app-screenshot.png" alt="A screenshot of the cat facts quiz app">
+        <div>
+          <img class="tech-icon" src="img/css_3.png" alt="A CSS 3 icon">
+          <img class="tech-icon" src="img/html_5.png" alt="An HTML 5 icon">
+          <img class="tech-icon" src="img/javascript_icon.png" alt="A Javascript icon">
+        </div>
       </section>
     </main>
     <script src="script.js"></script>
