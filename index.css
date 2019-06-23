@@ -25,6 +25,34 @@ li {
   font-size: 20px;
 }
 
+.menu-icon {
+  float: right;
+  padding-right: 10px;
+  margin-top: 0px;
+}
+
+.close-icon {
+  display: block;
+  float: right;
+  padding-right: 10px;
+  margin-top: 20px;
+  height: 25px;
+}
+
+.index-link {
+  margin-top: 25px;
+  margin-left: 25px;
+  float: left;
+  display: block;
+}
+
+.menu-list {
+  display: block;
+  padding-left: 10px;
+  float: right;
+  margin-right: 10px;
+}
+
 .about-me, .contact-info, .projects-title{
   text-align: center;
   color: white;
