@@ -1,9 +1,9 @@
 function generateMenu(){
   return `<img class="close-icon" src="img/close-icon.png" alt="Green square close menu icon with x in the middle">
   <ul class="menu-list">
-  <li class="contact"><a href="#contact">Contact</a></li>
-  <li class="project"><a class href="#projects">Projects</a></li>
-  <li class="about"><a href="#about">About</a></li>
+  <li class="contact"><a class="menu-item" href="#contact">Contact</a></li>
+  <li class="project"><a class="menu-item" href="#projects">Projects</a></li>
+  <li class="about"><a class="menu-item" href="#about">About</a></li>
 </ul>`
 }
 
@@ -23,9 +23,18 @@ function closeMenu(){
   });
 }
 
-function openCloseMenu() {
-  openMenu();
-  closeMenu();
+function animateScroll(){
+  $('.navbar').on('click', '.ham-menu .menu-list li .menu-item', function(event){
+    var jump = $(this).attr('href');
+    $('html, body').animate({ scrollTop: $(jump).offset().top }, 500);
+});
 }
 
-$(openCloseMenu());
+function callListeners() {
+  openMenu();
+  closeMenu();
+  animateScroll();
+}
+
+$(callListeners());
+
