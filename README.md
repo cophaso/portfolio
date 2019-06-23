@@ -1,3 +1,2 @@
-Portfolio
-
-Version 1 of my portfoilio
+#Portfolio
+Version 1 of my portfolio
