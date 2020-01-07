@@ -4,6 +4,7 @@ function generateMenu(){
   <li class="contact"><a class="menu-item" href="#contact">Contact</a></li>
   <li class="project"><a class="menu-item" href="#projects">Projects</a></li>
   <li class="about"><a class="menu-item" href="#about">About</a></li>
+  <li class="Resume"><a class="menu-item" href="./resume.html">Resume</a></li>
 </ul>`
 }
 

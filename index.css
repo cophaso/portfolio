@@ -2,7 +2,7 @@ body {
   font-family: 'Work Sans', sans-serif;
   margin: 0px;
   padding: 0px;
-  min-height: 100%;
+  /* min-height: 100%; */
 }
 
 li {
@@ -173,7 +173,7 @@ a{
 
 
 /****** FOR DESKTOP ******/
-@media (min-width:1025px) {  
+@media (min-width: 1025px) {  
   .navbar ul {
     float: right;
     padding-right: 25px;
@@ -232,5 +232,11 @@ a{
     width: 750px;
     margin-right: 100px;
     margin-bottom: 100px;
+  }
+
+  .resume-main{
+    display: inline-block;
+    margin-left: 50px;
+    margin-right: 50px;
   }
 }
