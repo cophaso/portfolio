@@ -89,7 +89,7 @@ h1 {
 
 h2 {
   font-family: 'Space Mono', monospace;
-  font-size: 32px;
+  font-size: 36px;
   padding-top: 20px;
 }
 
@@ -119,12 +119,17 @@ h2 {
   margin-top: -30px;
   text-align: center;
   color: white;
+  padding-bottom: 30px;
+}
+
+.projects:nth-child(even) {
+  background-color: #5B7065;
 }
 
 h3 {
   font-family: 'Space Mono', monospace;
   color: #fff;
-  font-size: 24px;
+  font-size: 26px;
   margin-bottom: -10px;
   display: block;
 }
@@ -140,10 +145,17 @@ h3 {
   border: dotted #04202C;
   padding: 5px;
   margin-top: 10px;
+  text-decoration: none;
 }
 
 a:visited{
   color: white;
+  text-decoration: none;
+}
+
+a{
+  color: white;
+  text-decoration: none;
 }
 
 .tech-icon{
@@ -152,7 +164,7 @@ a:visited{
   height: 50px;
 }
 
-.quiz-app-screenshot{
+.app-screenshot{
   width: auto;
   height: 200px;
   overflow: hidden;
@@ -191,13 +203,15 @@ a:visited{
   }
   
   .projects {
-    min-height: 750px;
+    min-height: 725px;
+  }
+
+  .projects:nth-child(even) {
+    background-color: #5B7065;
   }
 
   h3 {
     font-size: 28px;
-    margin-left: 15%;
-    margin-bottom: -25px;
     text-align: left;
   }
 
@@ -212,9 +226,10 @@ a:visited{
     padding-left: 2.5%;
   }
 
-  .quiz-app-screenshot{
+  .app-screenshot{
     float: right;
     height: 500px;
+    width: 750px;
     margin-right: 100px;
     margin-bottom: 100px;
   }
