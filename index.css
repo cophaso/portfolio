@@ -171,6 +171,12 @@ a{
   padding-top: 20px;
 }
 
+.resume-main{
+  display: inline-block;
+  margin-left: 50px;
+  margin-right: 50px;
+}
+
 
 /****** FOR DESKTOP ******/
 @media (min-width: 1025px) {  
