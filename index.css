@@ -53,9 +53,17 @@ li {
   margin-right: 10px;
 }
 
-.about-me, .contact-info, .projects-title{
+.about-me, .contact-info{
   text-align: center;
   color: white;
+}
+
+.projects-title{
+  margin-top: -50px;
+  padding-bottom: 25px;
+  text-align: center;
+  color: white;
+  background-color: rgb(42, 77, 57);
 }
 
 h1 {
@@ -115,7 +123,7 @@ h2 {
 }
 
 .projects {
-  background-color: #9DA39C;
+  background-color: #5B7065;
   margin-top: -30px;
   text-align: center;
   color: white;
@@ -123,7 +131,7 @@ h2 {
 }
 
 .projects:nth-child(even) {
-  background-color: #5B7065;
+  background-color: rgb(42, 77, 57);
 }
 
 h3 {
@@ -136,6 +144,10 @@ h3 {
 
 .project-description{
   display: block;
+  text-align: left;
+}
+
+.project-description img{
   text-align: center;
 }
 
@@ -165,8 +177,8 @@ a{
 }
 
 .app-screenshot{
-  width: auto;
-  height: 200px;
+  width: 90%;
+  height: auto;
   overflow: hidden;
   padding-top: 20px;
 }
@@ -179,7 +191,7 @@ a{
 
 
 /****** FOR DESKTOP ******/
-@media (min-width: 1025px) {  
+@media (min-width: 1409px) {  
   .navbar ul {
     float: right;
     padding-right: 25px;
@@ -213,7 +225,7 @@ a{
   }
 
   .projects:nth-child(even) {
-    background-color: #5B7065;
+    background-color: rgb(42, 77, 57);
   }
 
   h3 {
