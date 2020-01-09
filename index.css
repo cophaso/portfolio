@@ -86,6 +86,11 @@ h1 {
   line-height: 32px;
   margin-left: 10px;
   margin-right: 10px;
+  text-align: left;
+}
+
+.project-description img{
+  text-align: center;
 }
 
 .about-me{
@@ -140,15 +145,8 @@ h3 {
   font-size: 26px;
   margin-bottom: -10px;
   display: block;
-}
-
-.project-description{
-  display: block;
-  text-align: left;
-}
-
-.project-description img{
   text-align: center;
+  padding-top: 25px;
 }
 
 .project-link{
@@ -191,7 +189,7 @@ a{
 
 
 /****** FOR DESKTOP ******/
-@media (min-width: 1409px) {  
+@media (min-width: 1400px) {  
   .navbar ul {
     float: right;
     padding-right: 25px;
@@ -250,6 +248,7 @@ a{
     width: 750px;
     margin-right: 100px;
     margin-bottom: 100px;
+    padding-top: 100px;
   }
 
   .resume-main{
