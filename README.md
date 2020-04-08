@@ -1,2 +1,3 @@
 # Portfolio
-Version 1 of my portfolio
+
+Displaying my most recent projects and a little about me. 
